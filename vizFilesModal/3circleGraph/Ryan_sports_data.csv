@@ -1,0 +1,381 @@
+year,sport,participants
+1932,Athletics,54
+1932,Fencing,17
+1932,Art Competitions,75
+1932,Swimming,44
+1932,Diving,11
+1996,Sailing,100
+1996,Football,124
+1996,Badminton,96
+1996,Athletics,755
+1996,Handball,118
+1996,Rhythmic Gymnastics,90
+1996,Rowing,205
+1996,Archery,64
+1996,Swimming,345
+1996,Basketball,143
+1996,Synchronized Swimming,72
+1996,Table Tennis,81
+1996,Hockey,128
+1996,Canoeing,121
+1996,Diving,56
+1996,Cycling,111
+1996,Equestrianism,66
+1996,Judo,151
+1996,Gymnastics,105
+1996,Softball,120
+1996,Volleyball,134
+1996,Fencing,88
+1996,Shooting,125
+1996,Tennis,83
+1996,Beach Volleyball,36
+2000,Sailing,95
+2000,Weightlifting,85
+2000,Synchronized Swimming,101
+2000,Table Tennis,85
+2000,Swimming,396
+2000,Athletics,880
+2000,Shooting,146
+2000,Basketball,142
+2000,Taekwondo,48
+2000,Hockey,159
+2000,Volleyball,138
+2000,Softball,120
+2000,Rhythmic Gymnastics,84
+2000,Football,124
+2000,Water Polo,78
+2000,Diving,77
+2000,Rowing,184
+2000,Handball,146
+2000,Cycling,121
+2000,Modern Pentathlon,24
+2000,Archery,64
+2000,Judo,161
+2000,Gymnastics,97
+2000,Fencing,83
+2000,Equestrianism,67
+2000,Badminton,85
+2000,Triathlon,48
+2000,Tennis,89
+2000,Canoeing,81
+2000,Beach Volleyball,48
+2000,Trampolining,12
+2008,Handball,171
+2008,Athletics,974
+2008,Basketball,143
+2008,Sailing,139
+2008,Softball,120
+2008,Archery,64
+2008,Taekwondo,63
+2008,Synchronized Swimming,102
+2008,Shooting,145
+2008,Volleyball,140
+2008,Table Tennis,85
+2008,Weightlifting,87
+2008,Diving,73
+2008,Gymnastics,98
+2008,Judo,156
+2008,Triathlon,55
+2008,Swimming,453
+2008,Hockey,191
+2008,Badminton,86
+2008,Rowing,191
+2008,Wrestling,66
+2008,Equestrianism,73
+2008,Rhythmic Gymnastics,95
+2008,Football,195
+2008,Tennis,83
+2008,Beach Volleyball,48
+2008,Cycling,147
+2008,Fencing,116
+2008,Water Polo,103
+2008,Modern Pentathlon,36
+2008,Canoeing,95
+2008,Trampolining,16
+2016,Weightlifting,103
+2016,Taekwondo,64
+2016,Handball,176
+2016,Equestrianism,75
+2016,Cycling,192
+2016,Diving,68
+2016,Shooting,151
+2016,Synchronized Swimming,102
+2016,Volleyball,142
+2016,Athletics,1084
+2016,Rugby Sevens,148
+2016,Football,203
+2016,Water Polo,104
+2016,Rowing,215
+2016,Triathlon,55
+2016,Basketball,140
+2016,Wrestling,112
+2016,Trampolining,16
+2016,Swimming,438
+2016,Boxing,36
+2016,Badminton,86
+2016,Modern Pentathlon,36
+2016,Judo,152
+2016,Sailing,163
+2016,Beach Volleyball,48
+2016,Rhythmic Gymnastics,96
+2016,Archery,64
+2016,Hockey,194
+2016,Canoeing,112
+2016,Fencing,124
+2016,Table Tennis,86
+2016,Gymnastics,98
+2016,Golf,60
+2016,Tennis,91
+1988,Hockey,124
+1988,Swimming,252
+1988,Diving,40
+1988,Athletics,555
+1988,Sailing,44
+1988,Shooting,111
+1988,Archery,62
+1988,Table Tennis,48
+1988,Rhythmic Gymnastics,39
+1988,Gymnastics,90
+1988,Rowing,194
+1988,Synchronized Swimming,46
+1988,Volleyball,95
+1988,Handball,111
+1988,Canoeing,64
+1988,Basketball,93
+1988,Cycling,64
+1988,Equestrianism,54
+1988,Tennis,48
+1988,Fencing,69
+2004,Athletics,916
+2004,Cycling,130
+2004,Taekwondo,60
+2004,Synchronized Swimming,101
+2004,Shooting,137
+2004,Weightlifting,85
+2004,Rhythmic Gymnastics,84
+2004,Canoeing,94
+2004,Swimming,393
+2004,Basketball,143
+2004,Volleyball,140
+2004,Hockey,160
+2004,Gymnastics,98
+2004,Football,166
+2004,Judo,157
+2004,Rowing,193
+2004,Handball,149
+2004,Equestrianism,66
+2004,Modern Pentathlon,32
+2004,Triathlon,50
+2004,Softball,118
+2004,Water Polo,101
+2004,Sailing,139
+2004,Beach Volleyball,48
+2004,Badminton,83
+2004,Tennis,83
+2004,Fencing,93
+2004,Table Tennis,86
+2004,Archery,64
+2004,Diving,65
+2004,Wrestling,50
+2004,Trampolining,16
+2012,Athletics,991
+2012,Rowing,196
+2012,Water Polo,102
+2012,Synchronized Swimming,101
+2012,Volleyball,143
+2012,Fencing,123
+2012,Weightlifting,103
+2012,Diving,68
+2012,Judo,153
+2012,Football,200
+2012,Cycling,180
+2012,Triathlon,55
+2012,Rhythmic Gymnastics,95
+2012,Basketball,143
+2012,Swimming,450
+2012,Boxing,36
+2012,Gymnastics,97
+2012,Hockey,191
+2012,Sailing,142
+2012,Handball,171
+2012,Shooting,159
+2012,Archery,64
+2012,Equestrianism,77
+2012,Taekwondo,64
+2012,Wrestling,76
+2012,Badminton,86
+2012,Canoeing,111
+2012,Modern Pentathlon,36
+2012,Beach Volleyball,48
+2012,Tennis,89
+2012,Table Tennis,88
+2012,Trampolining,16
+1980,Athletics,266
+1980,Handball,82
+1980,Rowing,157
+1980,Swimming,143
+1980,Gymnastics,62
+1980,Fencing,51
+1980,Archery,29
+1980,Volleyball,90
+1980,Hockey,91
+1980,Canoeing,32
+1980,Diving,33
+1980,Basketball,72
+1980,Equestrianism,9
+1980,Shooting,5
+1980,Sailing,1
+1900,Golf,10
+1900,Tennis,7
+1900,Sailing,1
+1900,Croquet,3
+1900,Equestrianism,2
+1984,Athletics,385
+1984,Swimming,186
+1984,Cycling,45
+1984,Gymnastics,65
+1984,Shooting,77
+1984,Archery,47
+1984,Rhythmic Gymnastics,33
+1984,Synchronized Swimming,50
+1984,Rowing,161
+1984,Handball,82
+1984,Hockey,96
+1984,Canoeing,37
+1984,Fencing,60
+1984,Equestrianism,47
+1984,Basketball,71
+1984,Volleyball,90
+1984,Diving,35
+1984,Sailing,2
+1992,Badminton,84
+1992,Athletics,622
+1992,Rhythmic Gymnastics,42
+1992,Handball,113
+1992,Diving,54
+1992,Basketball,94
+1992,Synchronized Swimming,53
+1992,Canoeing,105
+1992,Swimming,256
+1992,Judo,163
+1992,Table Tennis,79
+1992,Sailing,84
+1992,Gymnastics,92
+1992,Rowing,190
+1992,Volleyball,89
+1992,Hockey,125
+1992,Tennis,87
+1992,Cycling,75
+1992,Archery,61
+1992,Fencing,71
+1992,Shooting,117
+1992,Equestrianism,67
+1972,Gymnastics,118
+1972,Athletics,369
+1972,Fencing,65
+1972,Equestrianism,31
+1972,Archery,40
+1972,Swimming,245
+1972,Canoeing,56
+1972,Shooting,4
+1972,Volleyball,91
+1972,Diving,41
+1960,Gymnastics,124
+1960,Diving,26
+1960,Athletics,204
+1960,Swimming,144
+1960,Fencing,78
+1960,Canoeing,28
+1960,Equestrianism,8
+1960,Sailing,1
+1948,Athletics,144
+1948,Fencing,39
+1948,Swimming,88
+1948,Gymnastics,88
+1948,Canoeing,10
+1948,Diving,24
+1948,Art Competitions,53
+1956,Swimming,99
+1956,Athletics,147
+1956,Gymnastics,65
+1956,Diving,27
+1956,Fencing,23
+1956,Equestrianism,13
+1956,Canoeing,10
+1976,Rowing,205
+1976,Athletics,303
+1976,Swimming,208
+1976,Archery,27
+1976,Fencing,70
+1976,Handball,82
+1976,Equestrianism,24
+1976,Basketball,72
+1976,Volleyball,96
+1976,Gymnastics,86
+1976,Diving,39
+1976,Canoeing,39
+1976,Sailing,1
+1976,Shooting,8
+1964,Volleyball,68
+1964,Gymnastics,83
+1964,Fencing,56
+1964,Athletics,236
+1964,Diving,34
+1964,Swimming,162
+1964,Canoeing,27
+1964,Sailing,1
+1964,Equestrianism,13
+1952,Gymnastics,134
+1952,Swimming,118
+1952,Athletics,187
+1952,Fencing,37
+1952,Canoeing,13
+1952,Diving,25
+1952,Equestrianism,4
+1952,Sailing,3
+1924,Art Competitions,21
+1924,Diving,25
+1924,Fencing,25
+1924,Tennis,35
+1924,Swimming,49
+1924,Sailing,1
+1968,Athletics,243
+1968,Gymnastics,101
+1968,Diving,36
+1968,Swimming,204
+1968,Volleyball,87
+1968,Fencing,58
+1968,Canoeing,29
+1968,Equestrianism,22
+1968,Shooting,3
+1936,Swimming,93
+1936,Diving,30
+1936,Fencing,41
+1936,Athletics,98
+1936,Art Competitions,31
+1936,Gymnastics,64
+1936,Sailing,3
+1936,Alpinism,1
+1928,Athletics,95
+1928,Fencing,27
+1928,Gymnastics,56
+1928,Art Competitions,38
+1928,Diving,23
+1928,Swimming,72
+1928,Sailing,2
+1912,Swimming,27
+1912,Diving,13
+1912,Tennis,13
+1908,Tennis,10
+1908,Archery,25
+1908,Motorboating,1
+1908,Figure Skating,7
+1908,Sailing,1
+1920,Diving,17
+1920,Tennis,23
+1920,Figure Skating,12
+1920,Swimming,24
+1920,Art Competitions,1
+1920,Sailing,1
+1904,Archery,6
+1906,Tennis,6

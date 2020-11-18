@@ -1,0 +1,857 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Page-->
+    <title></title>
+    <!---->
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!---->
+
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!---->
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!---->
+
+    <link rel="stylesheet" href="vizFiles/5worldMap/temp.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.min.js"
+        integrity="sha512-C2RveGuPIWqkaLAluvoxyiaN1XYNe5ss11urhZWZYBUA9Ydgj+hfGKPcxCzTwut1/fmjEZR7Ac35f2aycT8Ogw=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="landing">
+        <div class="landing-image">
+            <img src="assets/images/bg-image.jpg">
+        </div>
+        <div class="container">
+            <div class="landing-content" data-paroller-factor="-0.3">
+                <img src="assets/images/rings.png" class="olympic-ring">
+                <h1>Women of the Olympics</h1>
+                <h2>An informative story of 28,721 women fighting their way into modern olympics</h2>
+            </div>
+        </div>
+        <div class="members">
+            The Nerd Herd
+            <ul>
+                /<li><a href="http://www.jaekim.design/" target="_blank">Jae Kim</a></li>
+                <li><a href="http://www.jaymodh.com/" target="_blank">Jay Modh</a></li>
+                <li><a href="https://ryanwinstead.com/" target="_blank">Ryan Winstead</a></li>
+                <li><a href="http://varnitjain.in/" target="_blank">Varnit Jain</a></li>
+            </ul>
+        </div>
+        <p class="courtesy">
+            Courtesy of Central Press / Getty Images
+        </p>
+    </div>
+
+    <div class="container">
+        <p style="margin:100px 0 300px">The Olympic Games are intended to symbolize global peace and cooperation, but
+            for women athletes, they represent a century long struggle for acceptance and equality that continues to
+            this day. Beginning in 1896, the international Olympic Games admitted women athletes just four years later
+            in 1900; however, which sports were deemed “feminine” enough for women, how many were allowed to compete,
+            and their integration into positions of athletic power is a long and storied history. This project attempts
+            to shed light on this struggle, lifting up the stories of courageous women who fought for their right to
+            compete on the global stage. For the purposes of this visualization, only the Summer Olympics are included.
+        </p>
+    </div>
+
+    <div class="entire-fix">
+        <div class="fixed-timeline">
+            <div class="timeline-relative">
+                <ul class="timeline timelinenav">
+                    <li class="active"><a href="#year1896">1896</a></li>
+                    <li><a href="#year1900">1900</a></li>
+                    <li><a href="#year1904">1904</a></li>
+                    <li class="twoyear"><a href="#year1906">1906</a></li>
+                    <li class="twoyear"><a href="#year1908">1908</a></li>
+                    <li><a href="#year1912">1912</a></li>
+                    <li class="eightyear"><a href="#year1920">1920</a></li>
+                    <li><a href="#year1924">1924</a></li>
+                    <li><a href="#year1928">1928</a></li>
+                    <li><a href="#year1932">1932</a></li>
+                    <li><a href="#year1936">1936</a></li>
+                    <li class="twelveyear"><a href="#year1948">1948</a></li>
+                    <li><a href="#year1952">1952</a></li>
+                    <li><a href="#year1956">1956</a></li>
+                    <li><a href="#year1960">1960</a></li>
+                    <li><a href="#year1964">1964</a></li>
+                    <li><a href="#year1968">1968</a></li>
+                    <li><a href="#year1972">1972</a></li>
+                    <li><a href="#year1976">1976</a></li>
+                    <li><a href="#year1980">1980</a></li>
+                    <li><a href="#year1984">1984</a></li>
+                    <li><a href="#year1988">1988</a></li>
+                    <li><a href="#year1992">1992</a></li>
+                    <li><a href="#year1996">1996</a></li>
+                    <li><a href="#year2000">2000</a></li>
+                    <li><a href="#year2004">2004</a></li>
+                    <li><a href="#year2008">2008</a></li>
+                    <li><a href="#year2012">2012</a></li>
+                    <li><a href="#year2016">2016</a></li>
+                </ul>
+                <button class="more more-up">
+                    <span class="material-icons">north</span>more
+                </button>
+                <button class="more more-down">
+                    <span class="material-icons">south</span>more
+                </button>
+            </div>
+        </div>
+        <div class="fixed-side">
+            <ul class="summary-list">
+                <li>
+                    <div class="interaction" data-year="year1912" id="myinteraction1">
+                        <ul class="imgline">
+                            <li><img src="assets/images/bar_1896.jpg" data-img-year="year1896"></li>
+                            <li><img src="assets/images/bar_1900.jpg" data-img-year="year1900"></li>
+                            <li><img src="assets/images/bar_1904.jpg" data-img-year="year1904"></li>
+                            <li><img src="assets/images/bar_1906.jpg" data-img-year="year1906"></li>
+                            <li><img src="assets/images/bar_1908.jpg" data-img-year="year1908"></li>
+                            <li><img src="assets/images/bar_1912.jpg" data-img-year="year1912"></li>
+                            <li><img src="assets/images/bar_1920.jpg" data-img-year="year1920"></li>
+                            <li><img src="assets/images/bar_1924.jpg" data-img-year="year1924"></li>
+                            <li><img src="assets/images/bar_1928.jpg" data-img-year="year1928"></li>
+                            <li><img src="assets/images/bar_1932.jpg" data-img-year="year1932"></li>
+                            <li><img src="assets/images/bar_1936.jpg" data-img-year="year1936"></li>
+                            <li><img src="assets/images/bar_1948.jpg" data-img-year="year1948"></li>
+                            <li><img src="assets/images/bar_1952.jpg" data-img-year="year1952"></li>
+                            <li><img src="assets/images/bar_1956.jpg" data-img-year="year1956"></li>
+                            <li><img src="assets/images/bar_1960.jpg" data-img-year="year1960"></li>
+                            <li><img src="assets/images/bar_1964.jpg" data-img-year="year1964"></li>
+                            <li><img src="assets/images/bar_1968.jpg" data-img-year="year1968"></li>
+                            <li><img src="assets/images/bar_1972.jpg" data-img-year="year1972"></li>
+                            <li><img src="assets/images/bar_1976.jpg" data-img-year="year1976"></li>
+                            <li><img src="assets/images/bar_1980.jpg" data-img-year="year1980"></li>
+                            <li><img src="assets/images/bar_1984.jpg" data-img-year="year1984"></li>
+                            <li><img src="assets/images/bar_1988.jpg" data-img-year="year1988"></li>
+                            <li><img src="assets/images/bar_1992.jpg" data-img-year="year1992"></li>
+                            <li><img src="assets/images/bar_1996.jpg" data-img-year="year1996"></li>
+                            <li><img src="assets/images/bar_2000.jpg" data-img-year="year2000"></li>
+                            <li><img src="assets/images/bar_2004.jpg" data-img-year="year2004"></li>
+                            <li><img src="assets/images/bar_2008.jpg" data-img-year="year2008"></li>
+                            <li><img src="assets/images/bar_2012.jpg" data-img-year="year2012"></li>
+                            <li><img src="assets/images/bar_2016.jpg" data-img-year="year2016"></li>
+                        </ul>
+                        <div class="on-hover"></div>
+                    </div>
+                    <p class="summary-text">
+                        <span data-text-year="year1896" class="span-text">0</span>
+                        <span data-text-year="year1900" class="span-text">23</span>
+                        <span data-text-year="year1904" class="span-text">6</span>
+                        <span data-text-year="year1906" class="span-text">6</span>
+                        <span data-text-year="year1908" class="span-text">44</span>
+                        <span data-text-year="year1912" class="span-text">53</span>
+                        <span data-text-year="year1920" class="span-text">78</span>
+                        <span data-text-year="year1924" class="span-text">156</span>
+                        <span data-text-year="year1928" class="span-text">312</span>
+                        <span data-text-year="year1932" class="span-text">201</span>
+                        <span data-text-year="year1936" class="span-text">361</span>
+                        <span data-text-year="year1948" class="span-text">446</span>
+                        <span data-text-year="year1952" class="span-text">521</span>
+                        <span data-text-year="year1956" class="span-text">384</span>
+                        <span data-text-year="year1960" class="span-text">613</span>
+                        <span data-text-year="year1964" class="span-text">680</span>
+                        <span data-text-year="year1968" class="span-text">783</span>
+                        <span data-text-year="year1972" class="span-text">1060</span>
+                        <span data-text-year="year1976" class="span-text">1260</span>
+                        <span data-text-year="year1980" class="span-text">1123</span>
+                        <span data-text-year="year1984" class="span-text">1567</span>
+                        <span data-text-year="year1988" class="span-text">2202</span>
+                        <span data-text-year="year1992" class="span-text">2721</span>
+                        <span data-text-year="year1996" class="span-text">6512</span>
+                        <span data-text-year="year2000" class="span-text">4064</span>
+                        <span data-text-year="year2004" class="span-text">4288</span>
+                        <span data-text-year="year2008" class="span-text">4603</span>
+                        <span data-text-year="year2012" class="span-text">4646</span>
+                        <span data-text-year="year2016" class="span-text">5031</span>
+                        women participate in the
+                        <span data-number-year="year1896" class="span-num">1896</span>
+                        <span data-number-year="year1900" class="span-num">1900</span>
+                        <span data-number-year="year1904" class="span-num">1904</span>
+                        <span data-number-year="year1906" class="span-num">1906</span>
+                        <span data-number-year="year1908" class="span-num">1908</span>
+                        <span data-number-year="year1912" class="span-num">1912</span>
+                        <span data-number-year="year1920" class="span-num">1920</span>
+                        <span data-number-year="year1924" class="span-num">1924</span>
+                        <span data-number-year="year1928" class="span-num">1928</span>
+                        <span data-number-year="year1932" class="span-num">1932</span>
+                        <span data-number-year="year1936" class="span-num">1936</span>
+                        <span data-number-year="year1948" class="span-num">1948</span>
+                        <span data-number-year="year1952" class="span-num">1952</span>
+                        <span data-number-year="year1956" class="span-num">1956</span>
+                        <span data-number-year="year1960" class="span-num">1960</span>
+                        <span data-number-year="year1964" class="span-num">1964</span>
+                        <span data-number-year="year1968" class="span-num">1968</span>
+                        <span data-number-year="year1972" class="span-num">1972</span>
+                        <span data-number-year="year1976" class="span-num">1976</span>
+                        <span data-number-year="year1980" class="span-num">1980</span>
+                        <span data-number-year="year1984" class="span-num">1984</span>
+                        <span data-number-year="year1988" class="span-num">1988</span>
+                        <span data-number-year="year1992" class="span-num">1992</span>
+                        <span data-number-year="year1996" class="span-num">1996</span>
+                        <span data-number-year="year2000" class="span-num">2000</span>
+                        <span data-number-year="year2004" class="span-num">2004</span>
+                        <span data-number-year="year2008" class="span-num">2008</span>
+                        <span data-number-year="year2012" class="span-num">2012</span>
+                        <span data-number-year="year2016" class="span-num">2016</span>
+                        Olympics
+                    </p>
+                </li>
+                <li>
+                    <div class="interaction" data-year="year1952" id="myinteraction2">
+                        <ul class="imgline">
+                            <li><img src="assets/images/circle_1896.jpg" data-img-year="year1896"></li>
+                            <li><img src="assets/images/circle_1900.jpg" data-img-year="year1900"></li>
+                            <li><img src="assets/images/circle_1904.jpg" data-img-year="year1904"></li>
+                            <li><img src="assets/images/circle_1906.jpg" data-img-year="year1906"></li>
+                            <li><img src="assets/images/circle_1908.jpg" data-img-year="year1908"></li>
+                            <li><img src="assets/images/circle_1912.jpg" data-img-year="year1912"></li>
+                            <li><img src="assets/images/circle_1920.jpg" data-img-year="year1920"></li>
+                            <li><img src="assets/images/circle_1924.jpg" data-img-year="year1924"></li>
+                            <li><img src="assets/images/circle_1928.jpg" data-img-year="year1928"></li>
+                            <li><img src="assets/images/circle_1932.jpg" data-img-year="year1932"></li>
+                            <li><img src="assets/images/circle_1936.jpg" data-img-year="year1936"></li>
+                            <li><img src="assets/images/circle_1948.jpg" data-img-year="year1948"></li>
+                            <li><img src="assets/images/circle_1952.jpg" data-img-year="year1952"></li>
+                            <li><img src="assets/images/circle_1956.jpg" data-img-year="year1956"></li>
+                            <li><img src="assets/images/circle_1960.jpg" data-img-year="year1960"></li>
+                            <li><img src="assets/images/circle_1964.jpg" data-img-year="year1964"></li>
+                            <li><img src="assets/images/circle_1968.jpg" data-img-year="year1968"></li>
+                            <li><img src="assets/images/circle_1972.jpg" data-img-year="year1972"></li>
+                            <li><img src="assets/images/circle_1976.jpg" data-img-year="year1976"></li>
+                            <li><img src="assets/images/circle_1980.jpg" data-img-year="year1980"></li>
+                            <li><img src="assets/images/circle_1984.jpg" data-img-year="year1984"></li>
+                            <li><img src="assets/images/circle_1988.jpg" data-img-year="year1988"></li>
+                            <li><img src="assets/images/circle_1992.jpg" data-img-year="year1992"></li>
+                            <li><img src="assets/images/circle_1996.jpg" data-img-year="year1996"></li>
+                            <li><img src="assets/images/circle_2000.jpg" data-img-year="year2000"></li>
+                            <li><img src="assets/images/circle_2004.jpg" data-img-year="year2004"></li>
+                            <li><img src="assets/images/circle_2008.jpg" data-img-year="year2008"></li>
+                            <li><img src="assets/images/circle_2012.jpg" data-img-year="year2012"></li>
+                            <li><img src="assets/images/circle_2016.jpg" data-img-year="year2016"></li>
+                        </ul>
+                        <div class="on-hover"></div>
+                    </div>
+                    <p class="summary-text">
+                        Women participate in
+                        <span data-text-year="year1896" class="span-text">0</span>
+                        <span data-text-year="year1900" class="span-text">5</span>
+                        <span data-text-year="year1904" class="span-text">1</span>
+                        <span data-text-year="year1906" class="span-text">1</span>
+                        <span data-text-year="year1908" class="span-text">5</span>
+                        <span data-text-year="year1912" class="span-text">3</span>
+                        <span data-text-year="year1920" class="span-text">6</span>
+                        <span data-text-year="year1924" class="span-text">6</span>
+                        <span data-text-year="year1928" class="span-text">7</span>
+                        <span data-text-year="year1932" class="span-text">5</span>
+                        <span data-text-year="year1936" class="span-text">8</span>
+                        <span data-text-year="year1948" class="span-text">7</span>
+                        <span data-text-year="year1952" class="span-text">8</span>
+                        <span data-text-year="year1956" class="span-text">7</span>
+                        <span data-text-year="year1960" class="span-text">8</span>
+                        <span data-text-year="year1964" class="span-text">9</span>
+                        <span data-text-year="year1968" class="span-text">9</span>
+                        <span data-text-year="year1972" class="span-text">10</span>
+                        <span data-text-year="year1976" class="span-text">14</span>
+                        <span data-text-year="year1980" class="span-text">15</span>
+                        <span data-text-year="year1984" class="span-text">18</span>
+                        <span data-text-year="year1988" class="span-text">20</span>
+                        <span data-text-year="year1992" class="span-text">22</span>
+                        <span data-text-year="year1996" class="span-text">25</span>
+                        <span data-text-year="year2000" class="span-text">31</span>
+                        <span data-text-year="year2004" class="span-text">32</span>
+                        <span data-text-year="year2008" class="span-text">32</span>
+                        <span data-text-year="year2012" class="span-text">32</span>
+                        <span data-text-year="year2016" class="span-text">34</span>
+                        different sports
+                    </p>
+                </li>
+                <li>
+                    <div class="interaction" data-year="year1976" id="myinteraction3">
+                        <ul class="imgline">
+                            <li><img src="assets/images/heat_1896.jpg" data-img-year="year1896"></li>
+                            <li><img src="assets/images/heat_1900.jpg" data-img-year="year1900"></li>
+                            <li><img src="assets/images/heat_1904.jpg" data-img-year="year1904"></li>
+                            <li><img src="assets/images/heat_1906.jpg" data-img-year="year1906"></li>
+                            <li><img src="assets/images/heat_1908.jpg" data-img-year="year1908"></li>
+                            <li><img src="assets/images/heat_1912.jpg" data-img-year="year1912"></li>
+                            <li><img src="assets/images/heat_1920.jpg" data-img-year="year1920"></li>
+                            <li><img src="assets/images/heat_1924.jpg" data-img-year="year1924"></li>
+                            <li><img src="assets/images/heat_1928.jpg" data-img-year="year1928"></li>
+                            <li><img src="assets/images/heat_1932.jpg" data-img-year="year1932"></li>
+                            <li><img src="assets/images/heat_1936.jpg" data-img-year="year1936"></li>
+                            <li><img src="assets/images/heat_1948.jpg" data-img-year="year1948"></li>
+                            <li><img src="assets/images/heat_1952.jpg" data-img-year="year1952"></li>
+                            <li><img src="assets/images/heat_1956.jpg" data-img-year="year1956"></li>
+                            <li><img src="assets/images/heat_1960.jpg" data-img-year="year1960"></li>
+                            <li><img src="assets/images/heat_1964.jpg" data-img-year="year1964"></li>
+                            <li><img src="assets/images/heat_1968.jpg" data-img-year="year1968"></li>
+                            <li><img src="assets/images/heat_1972.jpg" data-img-year="year1972"></li>
+                            <li><img src="assets/images/heat_1976.jpg" data-img-year="year1976"></li>
+                            <li><img src="assets/images/heat_1980.jpg" data-img-year="year1980"></li>
+                            <li><img src="assets/images/heat_1984.jpg" data-img-year="year1984"></li>
+                            <li><img src="assets/images/heat_1988.jpg" data-img-year="year1988"></li>
+                            <li><img src="assets/images/heat_1992.jpg" data-img-year="year1992"></li>
+                            <li><img src="assets/images/heat_1996.jpg" data-img-year="year1996"></li>
+                            <li><img src="assets/images/heat_2000.jpg" data-img-year="year2000"></li>
+                            <li><img src="assets/images/heat_2004.jpg" data-img-year="year2004"></li>
+                            <li><img src="assets/images/heat_2008.jpg" data-img-year="year2008"></li>
+                            <li><img src="assets/images/heat_2012.jpg" data-img-year="year2012"></li>
+                            <li><img src="assets/images/heat_2016.jpg" data-img-year="year2016"></li>
+                        </ul>
+                        <div class="on-hover"></div>
+                    </div>
+                    <p class="summary-text">
+                        <tag class="color-span">
+                            <span data-text-year="year1896" class="span-text">0</span>
+                            <span data-text-year="year1900" class="span-text">1</span>
+                            <span data-text-year="year1904" class="span-text">0</span>
+                            <span data-text-year="year1906" class="span-text">0</span>
+                            <span data-text-year="year1908" class="span-text">0</span>
+                            <span data-text-year="year1912" class="span-text">0</span>
+                            <span data-text-year="year1920" class="span-text">1</span>
+                            <span data-text-year="year1924" class="span-text">0</span>
+                            <span data-text-year="year1928" class="span-text">0</span>
+                            <span data-text-year="year1932" class="span-text">0</span>
+                            <span data-text-year="year1936" class="span-text">1</span>
+                            <span data-text-year="year1948" class="span-text">0</span>
+                            <span data-text-year="year1952" class="span-text">0</span>
+                            <span data-text-year="year1956" class="span-text">2</span>
+                            <span data-text-year="year1960" class="span-text">1</span>
+                            <span data-text-year="year1964" class="span-text">0</span>
+                            <span data-text-year="year1968" class="span-text">1</span>
+                            <span data-text-year="year1972" class="span-text">3</span>
+                            <span data-text-year="year1976" class="span-text">2</span>
+                            <span data-text-year="year1980" class="span-text">3</span>
+                            <span data-text-year="year1984" class="span-text">1</span>
+                            <span data-text-year="year1988" class="span-text">1</span>
+                            <span data-text-year="year1992" class="span-text">5</span>
+                            <span data-text-year="year1996" class="span-text">9</span>
+                            <span data-text-year="year2000" class="span-text">15</span>
+                            <span data-text-year="year2004" class="span-text">16</span>
+                            <span data-text-year="year2008" class="span-text">17</span>
+                            <span data-text-year="year2012" class="span-text">18</span>
+                            <span data-text-year="year2016" class="span-text">20</span>
+                            of
+                            <span data-number-year="year1896" class="span-num">9</span>
+                            <span data-number-year="year1900" class="span-num">20</span>
+                            <span data-number-year="year1904" class="span-num">18</span>
+                            <span data-number-year="year1906" class="span-num">13</span>
+                            <span data-number-year="year1908" class="span-num">24</span>
+                            <span data-number-year="year1912" class="span-num">17</span>
+                            <span data-number-year="year1920" class="span-num">25</span>
+                            <span data-number-year="year1924" class="span-num">20</span>
+                            <span data-number-year="year1928" class="span-num">17</span>
+                            <span data-number-year="year1932" class="span-num">18</span>
+                            <span data-number-year="year1936" class="span-num">24</span>
+                            <span data-number-year="year1948" class="span-num">20</span>
+                            <span data-number-year="year1952" class="span-num">19</span>
+                            <span data-number-year="year1956" class="span-num">19</span>
+                            <span data-number-year="year1960" class="span-num">19</span>
+                            <span data-number-year="year1964" class="span-num">21</span>
+                            <span data-number-year="year1968" class="span-num">20</span>
+                            <span data-number-year="year1972" class="span-num">23</span>
+                            <span data-number-year="year1976" class="span-num">23</span>
+                            <span data-number-year="year1980" class="span-num">23</span>
+                            <span data-number-year="year1984" class="span-num">25</span>
+                            <span data-number-year="year1988" class="span-num">27</span>
+                            <span data-number-year="year1992" class="span-num">29</span>
+                            <span data-number-year="year1996" class="span-num">31</span>
+                            <span data-number-year="year2000" class="span-num">34</span>
+                            <span data-number-year="year2004" class="span-num">34</span>
+                            <span data-number-year="year2008" class="span-num">34</span>
+                            <span data-number-year="year2012" class="span-num">32</span>
+                            <span data-number-year="year2016" class="span-num">34</span>
+                        </tag>
+                        sports have equal gender participation
+                    </p>
+                </li>
+                <li>
+                    <div class="interaction" data-year="year2000" id="myinteraction4">
+                        <ul class="imgline">
+                            <li><img src="assets/images/world_1896.jpg" data-img-year="year1896"></li>
+                            <li><img src="assets/images/world_1900.jpg" data-img-year="year1900"></li>
+                            <li><img src="assets/images/world_1904.jpg" data-img-year="year1904"></li>
+                            <li><img src="assets/images/world_1906.jpg" data-img-year="year1906"></li>
+                            <li><img src="assets/images/world_1908.jpg" data-img-year="year1908"></li>
+                            <li><img src="assets/images/world_1912.jpg" data-img-year="year1912"></li>
+                            <li><img src="assets/images/world_1920.jpg" data-img-year="year1920"></li>
+                            <li><img src="assets/images/world_1924.jpg" data-img-year="year1924"></li>
+                            <li><img src="assets/images/world_1928.jpg" data-img-year="year1928"></li>
+                            <li><img src="assets/images/world_1932.jpg" data-img-year="year1932"></li>
+                            <li><img src="assets/images/world_1936.jpg" data-img-year="year1936"></li>
+                            <li><img src="assets/images/world_1948.jpg" data-img-year="year1948"></li>
+                            <li><img src="assets/images/world_1952.jpg" data-img-year="year1952"></li>
+                            <li><img src="assets/images/world_1956.jpg" data-img-year="year1956"></li>
+                            <li><img src="assets/images/world_1960.jpg" data-img-year="year1960"></li>
+                            <li><img src="assets/images/world_1964.jpg" data-img-year="year1964"></li>
+                            <li><img src="assets/images/world_1968.jpg" data-img-year="year1968"></li>
+                            <li><img src="assets/images/world_1972.jpg" data-img-year="year1972"></li>
+                            <li><img src="assets/images/world_1976.jpg" data-img-year="year1976"></li>
+                            <li><img src="assets/images/world_1980.jpg" data-img-year="year1980"></li>
+                            <li><img src="assets/images/world_1984.jpg" data-img-year="year1984"></li>
+                            <li><img src="assets/images/world_1988.jpg" data-img-year="year1988"></li>
+                            <li><img src="assets/images/world_1992.jpg" data-img-year="year1992"></li>
+                            <li><img src="assets/images/world_1996.jpg" data-img-year="year1996"></li>
+                            <li><img src="assets/images/world_2000.jpg" data-img-year="year2000"></li>
+                            <li><img src="assets/images/world_2004.jpg" data-img-year="year2004"></li>
+                            <li><img src="assets/images/world_2008.jpg" data-img-year="year2008"></li>
+                            <li><img src="assets/images/world_2012.jpg" data-img-year="year2012"></li>
+                            <li><img src="assets/images/world_2016.jpg" data-img-year="year2016"></li>
+                        </ul>
+                        <div class="on-hover"></div>
+                    </div>
+                    <p class="summary-text">
+                        Women participate from
+                        <span data-text-year="year1896" class="span-text"></span>
+                        <span data-text-year="year1900" class="span-text">6</span>
+                        <span data-text-year="year1904" class="span-text">1</span>
+                        <span data-text-year="year1906" class="span-text">2</span>
+                        <span data-text-year="year1908" class="span-text">3</span>
+                        <span data-text-year="year1912" class="span-text">10</span>
+                        <span data-text-year="year1920" class="span-text">14</span>
+                        <span data-text-year="year1924" class="span-text">22</span>
+                        <span data-text-year="year1928" class="span-text">25</span>
+                        <span data-text-year="year1932" class="span-text">21</span>
+                        <span data-text-year="year1936" class="span-text">29</span>
+                        <span data-text-year="year1948" class="span-text">34</span>
+                        <span data-text-year="year1952" class="span-text">40</span>
+                        <span data-text-year="year1956" class="span-text">37</span>
+                        <span data-text-year="year1960" class="span-text">46</span>
+                        <span data-text-year="year1964" class="span-text">53</span>
+                        <span data-text-year="year1968" class="span-text">53</span>
+                        <span data-text-year="year1972" class="span-text">65</span>
+                        <span data-text-year="year1976" class="span-text">63</span>
+                        <span data-text-year="year1980" class="span-text">56</span>
+                        <span data-text-year="year1984" class="span-text">94</span>
+                        <span data-text-year="year1988" class="span-text">115</span>
+                        <span data-text-year="year1992" class="span-text">133</span>
+                        <span data-text-year="year1996" class="span-text">166</span>
+                        <span data-text-year="year2000" class="span-text">189</span>
+                        <span data-text-year="year2004" class="span-text">190</span>
+                        <span data-text-year="year2008" class="span-text">192</span>
+                        <span data-text-year="year2012" class="span-text">198</span>
+                        <span data-text-year="year2016" class="span-text">198</span>
+                        different countries
+                    </p>
+                </li>
+                <li>
+                    <div class="interaction" data-year="year2016" id="myinteraction5">
+                        <ul class="imgline">
+                            <li><img src="assets/images/stack_1896.jpg" data-img-year="year1896"></li>
+                            <li><img src="assets/images/stack_1900.jpg" data-img-year="year1900"></li>
+                            <li><img src="assets/images/stack_1904.jpg" data-img-year="year1904"></li>
+                            <li><img src="assets/images/stack_1906.jpg" data-img-year="year1906"></li>
+                            <li><img src="assets/images/stack_1908.jpg" data-img-year="year1908"></li>
+                            <li><img src="assets/images/stack_1912.jpg" data-img-year="year1912"></li>
+                            <li><img src="assets/images/stack_1920.jpg" data-img-year="year1920"></li>
+                            <li><img src="assets/images/stack_1924.jpg" data-img-year="year1924"></li>
+                            <li><img src="assets/images/stack_1928.jpg" data-img-year="year1928"></li>
+                            <li><img src="assets/images/stack_1932.jpg" data-img-year="year1932"></li>
+                            <li><img src="assets/images/stack_1936.jpg" data-img-year="year1936"></li>
+                            <li><img src="assets/images/stack_1948.jpg" data-img-year="year1948"></li>
+                            <li><img src="assets/images/stack_1952.jpg" data-img-year="year1952"></li>
+                            <li><img src="assets/images/stack_1956.jpg" data-img-year="year1956"></li>
+                            <li><img src="assets/images/stack_1960.jpg" data-img-year="year1960"></li>
+                            <li><img src="assets/images/stack_1964.jpg" data-img-year="year1964"></li>
+                            <li><img src="assets/images/stack_1968.jpg" data-img-year="year1968"></li>
+                            <li><img src="assets/images/stack_1972.jpg" data-img-year="year1972"></li>
+                            <li><img src="assets/images/stack_1976.jpg" data-img-year="year1976"></li>
+                            <li><img src="assets/images/stack_1980.jpg" data-img-year="year1980"></li>
+                            <li><img src="assets/images/stack_1984.jpg" data-img-year="year1984"></li>
+                            <li><img src="assets/images/stack_1988.jpg" data-img-year="year1988"></li>
+                            <li><img src="assets/images/stack_1992.jpg" data-img-year="year1992"></li>
+                            <li><img src="assets/images/stack_1996.jpg" data-img-year="year1996"></li>
+                            <li><img src="assets/images/stack_2000.jpg" data-img-year="year2000"></li>
+                            <li><img src="assets/images/stack_2004.jpg" data-img-year="year2004"></li>
+                            <li><img src="assets/images/stack_2008.jpg" data-img-year="year2008"></li>
+                            <li><img src="assets/images/stack_2012.jpg" data-img-year="year2012"></li>
+                            <li><img src="assets/images/stack_2016.jpg" data-img-year="year2016"></li>
+                        </ul>
+                        <div class="on-hover"></div>
+                    </div>
+                    <p class="summary-text">
+                        <span data-text-year="year1896" class="span-text"></span>
+                        <span data-text-year="year1900" class="span-text">Unites States</span>
+                        <span data-text-year="year1904" class="span-text">Unites States</span>
+                        <span data-text-year="year1906" class="span-text">Greece</span>
+                        <span data-text-year="year1908" class="span-text">Great Britain</span>
+                        <span data-text-year="year1912" class="span-text">Great Britain</span>
+                        <span data-text-year="year1920" class="span-text">United States</span>
+                        <span data-text-year="year1924" class="span-text">United States</span>
+                        <span data-text-year="year1928" class="span-text">United States</span>
+                        <span data-text-year="year1932" class="span-text">United States</span>
+                        <span data-text-year="year1936" class="span-text">Germany</span>
+                        <span data-text-year="year1948" class="span-text">United States</span>
+                        <span data-text-year="year1952" class="span-text">Soviet Union</span>
+                        <span data-text-year="year1956" class="span-text">Soviet Union</span>
+                        <span data-text-year="year1960" class="span-text">Soviet Union</span>
+                        <span data-text-year="year1964" class="span-text">Soviet Union</span>
+                        <span data-text-year="year1968" class="span-text">United States</span>
+                        <span data-text-year="year1972" class="span-text">East Germany</span>
+                        <span data-text-year="year1976" class="span-text">East Germany</span>
+                        <span data-text-year="year1980" class="span-text">East Germany</span>
+                        <span data-text-year="year1984" class="span-text">United States</span>
+                        <span data-text-year="year1988" class="span-text">East Germany</span>
+                        <span data-text-year="year1992" class="span-text">United States</span>
+                        <span data-text-year="year1996" class="span-text">United States</span>
+                        <span data-text-year="year2000" class="span-text">United States</span>
+                        <span data-text-year="year2004" class="span-text">United States</span>
+                        <span data-text-year="year2008" class="span-text">China</span>
+                        <span data-text-year="year2012" class="span-text">Unites States</span>
+                        <span data-text-year="year2016" class="span-text">Unites States</span>
+                        leads in medals awarded to women athletes
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="staticCanvas" class="container">
+        <svg id="staticCanvasSVG" class="out-hide"></svg>
+    </div>
+
+    <div class="container mg-top">
+        <div id="year1896" class="scrollspy yearblock cp1">
+            <h3>1896</h3>
+        </div>
+        <div id="year1896_a" class="scrollspy yearblock cp1">
+            <h3>1896_a</h3>
+        </div>
+        <div id="year1896_b" class="scrollspy yearblock cp1">
+            <h3>1896_b</h3>
+        </div>
+        <div id="out" class="scrollspy yearblock cp3">
+            <h3>Out</h3>
+        </div>
+        <div class="yeartext">
+            <p>Held in Athens, Greece, the 1896 Olympic Games was the largest international sporting event to date. No
+                women were permitted in the event. Pierre de Coubertin, the creator of the International Olympic
+                Committee, described their parcitipation as “impractical, uninteresting, unaesthetic and incorrect."</p>
+        </div>
+        <div id="out" class="scrollspy yearblock cp3">
+            <h3>Out</h3>
+        </div>
+        <div id="year1900" class="scrollspy yearblock cp2">
+            <h3>1900</h3>
+        </div>
+        <div class="yeartext">
+            <p>The 1900 Olympics in Paris, France was the first to allow women athletes. However, they were only
+                permitted to compete in a handful of sports deemed “feminine” -- primarily leisure sports accessible
+                only to the affluent.</p>
+        </div>
+        <div id="year1904" class="scrollspy yearblock cm1">
+            <h3>1904</h3>
+        </div>
+        <div id="year1906" class="scrollspy yearblock">
+            <h3>1906</h3>
+        </div>
+        <div id="year1908" class="scrollspy yearblock">
+            <h3>1908</h3>
+        </div>
+        <div id="year1912" class="scrollspy yearblock">
+            <h3>1912</h3>
+        </div>
+        <div id="out" class="scrollspy yearblock cp2" data-out-year="year1912">
+            <h3>Out</h3>
+        </div>
+        <div class="yeartext textchange">
+            <div></div>
+            <p>Women started to participate in Olympics.<br>But what sports did they play?</p>
+        </div>
+        <div id="out" class="scrollspy yearblock cp3">
+            <h3>Out</h3>
+        </div>
+        <div id="year1912_a" class="scrollspy yearblock cp1 cm1">
+            <h3>1912_a</h3>
+        </div>
+        <div id="year1920" class="scrollspy yearblock">
+            <h3>1920</h3>
+        </div>
+        <div id="year1924" class="scrollspy yearblock">
+            <h3>1924</h3>
+        </div>
+        <div id="year1928" class="scrollspy yearblock">
+            <h3>1928</h3>
+        </div>
+        <div id="year1932" class="scrollspy yearblock cp4">
+            <h3>1932</h3>
+        </div>
+        <div class="yeartext">
+            <p>In the upcoming 1936 Olympics in Berlin, women’s participation grows from 2.2% to nearly 10%.
+                As the number of women athletes increased, more sports became open to women athletes to compete.
+            </p>
+        </div>
+        <div id="year1936" class="scrollspy yearblock cm2">
+            <h3>1936</h3>
+        </div>
+        <div id="out" class="scrollspy yearblock cp2" data-out-year="year1936">
+            <h3>Out</h3>
+        </div>
+        <div class="yeartext">
+            <p>The 1944 Summer Olympics due to be held in London were all cancelled due to the outbreak of World War II.
+                Six female Olympic athletes - Estella Agsteribbe Dorothea Köring, Helena Nordheim, Anna Dresden-Polak,
+                Jud Simons, Hildegarde Švarce - died due to World War II.
+            </p>
+        </div>
+        <div id="out" class="scrollspy yearblock">
+            <h3>Out</h3>
+        </div>
+        <div id="year1948" class="scrollspy yearblock">
+            <h3>1948</h3>
+        </div>
+        <div id="year1952" class="scrollspy yearblock">
+            <h3>1952</h3>
+        </div>
+        <div id="out" class="scrollspy yearblock cp2" data-out-year="year1952">
+            <h3>Out</h3>
+        </div>
+        <div class="yeartext textchange">
+            <div></div>
+            <p>Women have participated in many different sports. But how many sports do you think have a good mixed
+                ratio of both genders?</p>
+        </div>
+        <div id="out" class="scrollspy yearblock cp3">
+            <h3>Out</h3>
+        </div>
+        <div id="year1952_a" class="scrollspy yearblock cp1 cm1">
+            <h3>1952_a</h3>
+        </div>
+        <div id="year1956" class="scrollspy yearblock">
+            <h3>1956</h3>
+        </div>
+        <div id="year1960" class="scrollspy yearblock">
+            <h3>1960</h3>
+        </div>
+        <div id="year1964" class="scrollspy yearblock">
+            <h3>1964</h3>
+        </div>
+        <div class="yeartext cm3">
+            <p>Although Olympic sports were still male dominated, there has been some meaningful progress in balancing
+                genders in sports: from 25% of sports having gender equality in 1936 to 33% in 1964.</p>
+        </div>
+        <div id="year1968" class="scrollspy yearblock">
+            <h3>1968</h3>
+        </div>
+        <div id="year1972" class="scrollspy yearblock">
+            <h3>1972</h3>
+        </div>
+        <div id="year1976" class="scrollspy yearblock">
+            <h3>1976</h3>
+        </div>
+        <div id="out" class="scrollspy yearblock cp2" data-out-year="year1972">
+            <h3>Out</h3>
+        </div>
+        <div class="yeartext textchange">
+            <div></div>
+            <p>Women from only few countries started to play in Olympics. How much has women athletes’ participation in
+                Olympics globalized over recent years?</p>
+        </div>
+        <div id="out" class="scrollspy yearblock cp3">
+            <h3>Out</h3>
+        </div>
+        <div id="year1976_a" class="scrollspy yearblock cp2 cm1">
+            <h3>1976_a</h3>
+        </div>
+        <div id="year1980" class="scrollspy yearblock">
+            <h3>1980</h3>
+        </div>
+        <div class="yeartext cm3">
+            <p>The 1980 Moscow Olympics were widely considered controversial. 65 countries that were invited did not
+                participate in the Olympics (mostly western states), claiming that they were boycotting the conflict
+                between Afghanistan and the Soviet Union.</p>
+        </div>
+        <div id="year1984" class="scrollspy yearblock">
+            <h3>1984</h3>
+        </div>
+        <div id="year1988" class="scrollspy yearblock">
+            <h3>1988</h3>
+        </div>
+        <div id="year1992" class="scrollspy yearblock">
+            <h3>1992</h3>
+        </div>
+        <div id="year1996" class="scrollspy yearblock">
+            <h3>1996</h3>
+        </div>
+        <div id="year2000" class="scrollspy yearblock">
+            <h3>2000</h3>
+        </div>
+        <div id="out" class="scrollspy yearblock cp2" data-out-year="year2000">
+            <h3>Out</h3>
+        </div>
+        <div class="yeartext textchange">
+            <div></div>
+            <p>Now that we know women from all over the world participate in Olympics, what are some of the leading
+                countries in medal count from women athletes?</p>
+        </div>
+        <div id="out" class="scrollspy yearblock cp3">
+            <h3>Out</h3>
+        </div>
+        <div id="year2000_a" class="scrollspy yearblock cp1 cm1">
+            <h3>2000_a</h3>
+        </div>
+        <div id="year2004" class="scrollspy yearblock">
+            <h3>2004</h3>
+        </div>
+        <div id="year2008" class="scrollspy yearblock">
+            <h3>2008</h3>
+        </div>
+        <div id="year2012" class="scrollspy yearblock cp2">
+            <h3>2012</h3>
+        </div>
+        <div class="yeartext">
+            <p>The 2012 Olympics in London were the first where every competing nation featured at least one female
+                athlete.</p>
+        </div>
+        <div id="year2016" class="scrollspy yearblock">
+            <h3>2016</h3>
+        </div>
+        <div id="out" class="scrollspy yearblock cp2" data-out-year="year2016">
+            <h3>Out</h3>
+        </div>
+        <p class="conclusion">The women represented in this visualization embody the very best of athleticism: steadfast
+            determination, the bravery to shatter barriers, and extraordinary performance on the global stage. While the
+            2020 Olympics were cancelled due to the COVID-19 pandemic, they were predicted to be recording-breaking in
+            terms of women's participation. Women have demonstrated that they are more than capable to perform on an
+            elite level - and they are only getting better every year.</p>
+        <p class="quote">"The success of every woman should be the inspiration to another. We should raise each other
+            up.” – Serena Williams</p>
+    </div>
+
+    <div class="info-footer">
+        <h4>An Information Visualization Project</h4>
+        <p>created by</p>
+        <ul>
+            <li><a href="http://www.jaekim.design/" target="_blank">Jae Kim</a></li>
+            <li><a href="http://www.jaymodh.com/" target="_blank">Jay Modh</a></li>
+            <li><a href="https://ryanwinstead.com/" target="_blank">Ryan Winstead</a></li>
+            <li><a href="http://varnitjain.in/" target="_blank">Varnit Jain</a></li>
+        </ul>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="slider-input">
+                <input type="range" orient="vertical" min="1" max="28" id="slider1" class="slider" value="1">
+            </div>
+            <span class="demo"></span>
+            <svg class="eachsvg" id="graph1"></svg>
+        </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="slider-input">
+                <input type="range" orient="vertical" min="1" max="28" id="slider2" class="slider" value="1">
+            </div>
+            <span class="demo"></span>
+            <svg class="eachsvg" id="graph2"></svg>
+        </div>
+    </div>
+
+    <div id="myModal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="slider-input">
+                <input type="range" orient="vertical" min="1" max="28" id="slider3" class="slider" value="1">
+            </div>
+            <span class="demo"></span>
+            <svg class="eachsvg" id="graph3"></svg>
+        </div>
+    </div>
+
+    <div id="myModal4" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="slider-input">
+                <input type="range" orient="vertical" min="1" max="28" id="slider4" class="slider" value="1">
+            </div>
+            <span class="demo"></span>
+            <svg class="eachsvg" id="graph4"></svg>
+        </div>
+    </div>
+
+    <div id="myModal5" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="slider-input">
+                <input type="range" orient="vertical" min="1" max="28" id="slider5" class="slider" value="1">
+            </div>
+            <span class="demo"></span>
+            <svg class="eachsvg" id="graph5"></svg>
+        </div>
+    </div>
+
+    <!--Javascript-->
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "></script>
+    <script src="assets/js/main.js "></script>
+    <!---->
+
+    <!--Common Variable's Files-->
+    <script src="vizFiles/commonVariables.js"></script>
+    <script src="vizFilesM/commonVariables.js"></script>
+    <!---->
+
+    <!--Impact Graph Files-->
+    <script src="vizFiles/1impactPixel/impactPixelMain.js"></script>
+    <!-- <script src="vizFilesM/1impactPixel/impactPixelMain.js"></script> -->
+    <!---->
+
+    <!--Pixel Graph Files-->
+    <script src="vizFiles/2pixelBar/pixelMain.js"></script>
+    <script src="vizFilesM/2pixelBar/pixelMain.js"></script>
+    <!---->
+
+
+    <!--Circle Graph Files -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="vizFiles/3circleGraph/CircleMain.js"></script>
+    <script src="vizFilesM/3circleGraph/CircleMain.js"></script>
+    <!---->
+
+
+    <!--Heatmap Files -->
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="vizFiles/4heatMap/heatMapMain.js"></script>
+    <script src="vizFilesM/4heatMap/heatMapMain.js"></script>
+    <!---->
+
+
+    <!--World Map Files -->
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="vizFiles/5worldMap/d3-tip.js"></script>
+    <script src="vizFiles/5worldMap/worldMapMain.js"></script>
+    <script src="vizFilesM/5worldMap/d3-tip.js"></script>
+    <script src="vizFilesM/5worldMap/worldMapMain.js"></script>
+    <!---->
+
+
+    <!---Medal Graph Files -->
+    <script src="vizFiles/6medalMap/MedalMain.js"></script>
+    <script src="vizFilesM/6medalMap/MedalMain.js"></script>
+    <!----->
+
+</body>
+
+</html>

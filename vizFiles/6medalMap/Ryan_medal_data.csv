@@ -1,0 +1,669 @@
+year,country,bronze,silver,gold
+2008,Norway,1,2,1
+2008,Russia,8,13,11
+2008,United States,15,25,16
+2008,Turkey,0,3,0
+2008,Romania,2,1,4
+2008,New Zealand,0,0,2
+2008,Great Britain,8,5,7
+2008,Netherlands,2,4,6
+2008,Argentina,2,0,0
+2008,Australia,8,8,8
+2008,South Korea,4,4,5
+2008,North Korea,2,1,2
+2008,Brazil,3,1,2
+2008,Germany,8,3,7
+2008,Ukraine,7,2,3
+2008,France,4,2,1
+2008,Belarus,5,2,1
+2008,China,20,11,27
+2008,Cuba,3,6,0
+2008,Greece,2,0,0
+2008,Morocco,1,0,0
+2008,Belgium,0,1,1
+2008,Spain,1,3,0
+2008,Italy,4,3,4
+2008,Canada,3,4,1
+2008,Jamaica,2,2,3
+2008,Elvis Va,0,0,1
+2008,Chinese Taipei,2,0,0
+2008,Venezuela,1,0,0
+2008,Zimbabwe,0,3,1
+2008,Ethiopia,1,0,2
+2008,Hungary,1,1,1
+2008,Bulgaria,0,1,1
+2008,Japan,5,2,5
+2008,Mexico,1,0,1
+2008,Singapore,0,1,0
+2008,Portugal,0,1,0
+2008,Denmark,1,0,0
+2008,Kazakhstan,2,2,0
+2008,Algeria,1,0,0
+2008,Nigeria,2,0,0
+2008,Slovenia,1,1,0
+2008,Thailand,0,1,1
+2008,Kenya,1,3,2
+2008,Clearwater,1,0,0
+2008,Sweden,0,1,0
+2008,Austria,2,0,0
+2008,Slovakia,0,1,1
+2008,Bonaparte,0,0,1
+2008,Uzbekistan,1,0,0
+2008,Czech Republic,0,1,2
+2008,Switzerland,2,0,0
+2008,Finland,0,1,1
+2008,Cameroon,0,0,1
+2008,Poland,1,2,0
+2008,Indonesia,1,1,0
+2008,Mongolia,0,1,0
+2008,Croatia,3,1,0
+2008,Colombia,1,0,0
+2008,Georgia,1,0,0
+2008,Sunrise,0,1,0
+2008,Azerbaijan,1,0,0
+2008,Salinero,0,1,0
+2008,Lithuania,0,1,0
+2008,Satchmo,0,0,1
+2008,Digby,1,0,0
+1988,Netherlands,2,1,1
+1988,Norway,0,1,0
+1988,Soviet Union,16,7,13
+1988,Romania,5,7,5
+1988,Yugoslavia,2,1,1
+1988,United States,10,8,12
+1988,East Germany,15,16,20
+1988,West Germany,3,3,6
+1988,Australia,2,1,2
+1988,Sweden,0,1,0
+1988,Bulgaria,7,6,3
+1988,Italy,0,1,0
+1988,Canada,2,0,2
+1988,Peru,0,1,0
+1988,China,5,7,3
+1988,South Korea,1,2,4
+1988,Poland,1,0,0
+1988,Hungary,1,2,1
+1988,Indonesia,0,1,0
+1988,New Zealand,2,0,0
+1988,Japan,2,1,0
+1988,Great Britain,2,3,0
+1988,Jamaica,0,1,0
+1988,Portugal,0,0,1
+1988,Czechoslovakia,0,1,0
+1988,France,1,1,0
+1988,Costa Rica,0,1,0
+1988,Argentina,0,1,0
+1988,Switzerland,1,1,0
+1996,Norway,2,0,0
+1996,Brazil,1,2,1
+1996,Nigeria,2,1,1
+1996,United States,11,12,19
+1996,Canada,4,6,1
+1996,Romania,4,4,4
+1996,China,7,13,9
+1996,Denmark,1,0,2
+1996,Sweden,1,0,2
+1996,Australia,9,5,4
+1996,Japan,3,3,1
+1996,Germany,8,10,6
+1996,Russia,4,8,6
+1996,Ukraine,4,2,4
+1996,Greece,0,1,0
+1996,Spain,3,1,2
+1996,France,5,3,8
+1996,South Korea,2,6,5
+1996,Netherlands,7,4,0
+1996,Switzerland,0,1,0
+1996,Cuba,3,2,2
+1996,Italy,5,5,3
+1996,Slovenia,0,1,0
+1996,Chinese Taipei,0,1,0
+1996,New Zealand,1,2,0
+1996,Bahamas,0,1,0
+1996,Jamaica,1,2,1
+1996,Belarus,2,1,1
+1996,Bulgaria,1,2,1
+1996,Poland,2,1,1
+1996,Hungary,4,0,2
+1996,South Africa,1,0,2
+1996,Czech Republic,2,1,1
+1996,Serbia and Montenegro,1,0,1
+1996,Austria,1,0,0
+1996,Kenya,0,1,0
+1996,North Korea,0,0,1
+1996,Hong Kong,0,0,1
+1996,Great Britain,1,0,0
+1996,Belgium,1,1,1
+1996,Indonesia,1,1,0
+1996,Mozambique,1,0,0
+1996,Costa Rica,0,0,1
+1996,Finland,0,0,1
+1996,Portugal,0,0,1
+1996,Ethiopia,1,0,1
+1996,Syria,0,0,1
+1996,Ireland,1,0,3
+2016,Azerbaijan,3,1,0
+2016,Netherlands,2,4,6
+2016,Great Britain,8,10,8
+2016,United States,18,19,28
+2016,New Zealand,2,8,1
+2016,France,1,7,4
+2016,Spain,2,3,4
+2016,Indonesia,0,1,1
+2016,Italy,2,7,1
+2016,Iran,1,0,0
+2016,Norway,1,0,0
+2016,Colombia,1,1,2
+2016,Tunisia,2,0,0
+2016,Denmark,4,3,1
+2016,Sweden,3,3,2
+2016,Australia,4,4,5
+2016,Germany,6,8,6
+2016,Ethiopia,3,1,1
+2016,Switzerland,2,2,0
+2016,Brazil,2,1,2
+2016,Russia,7,12,10
+2016,Canada,11,2,3
+2016,Romania,1,0,1
+2016,Serbia,2,2,0
+2016,Cuba,1,1,0
+2016,Jamaica,2,2,2
+2016,Argentina,0,0,2
+2016,South Korea,3,1,5
+2016,China,17,11,14
+2016,Malaysia,0,2,0
+2016,Kenya,1,3,3
+2016,North Korea,1,2,1
+2016,Poland,4,2,2
+2016,Hungary,2,1,7
+2016,Bulgaria,2,1,0
+2016,Belgium,1,0,1
+2016,Philippines,0,1,0
+2016,Mongolia,0,1,0
+2016,Japan,10,1,7
+2016,Mexico,0,2,0
+2016,Austria,1,0,0
+2016,Kazakhstan,6,2,0
+2016,Cote d'Ivoire,1,0,0
+2016,Belarus,2,2,0
+2016,Israel,1,0,0
+2016,Venezuela,1,1,0
+2016,Czech Republic,4,0,0
+2016,Chinese Taipei,2,0,1
+2016,Bahrain,0,1,1
+2016,Kosovo,0,0,1
+2016,Ukraine,2,1,0
+2016,Croatia,1,0,2
+2016,Greece,1,0,2
+2016,Egypt,2,0,0
+2016,India,1,1,0
+2016,Bahamas,0,0,1
+2016,Portugal,1,0,0
+2016,Ireland,0,1,0
+2016,Burundi,0,1,0
+2016,Finland,1,0,0
+2016,Puerto Rico,0,0,1
+2016,South Africa,0,1,1
+2016,Thailand,1,1,2
+2016,Turkey,1,0,0
+2016,Slovenia,1,0,1
+2016,Lithuania,1,0,0
+2004,Russia,11,16,12
+2004,United States,15,16,13
+2004,Argentina,3,0,0
+2004,Brazil,0,2,0
+2004,Austria,0,1,1
+2004,Australia,8,7,8
+2004,Italy,2,5,2
+2004,Denmark,3,0,1
+2004,Japan,4,4,9
+2004,Germany,8,8,7
+2004,France,7,6,3
+2004,Greece,1,4,3
+2004,Azerbaijan,2,0,0
+2004,Great Britain,6,4,3
+2004,Spain,2,4,0
+2004,Jamaica,2,0,2
+2004,Ukraine,5,2,5
+2004,Romania,2,2,8
+2004,Cuba,6,3,2
+2004,Sweden,1,1,1
+2004,Belarus,3,2,1
+2004,Morocco,0,1,0
+2004,Netherlands,6,4,3
+2004,Thailand,3,0,2
+2004,Hungary,0,2,5
+2004,Canada,2,3,1
+2004,Colombia,2,0,0
+2004,Venezuela,1,0,0
+2004,Slovenia,2,0,0
+2004,China,9,11,20
+2004,Chinese Taipei,1,0,1
+2004,South Korea,4,5,3
+2004,Zimbabwe,1,1,1
+2004,Norway,0,0,2
+2004,Ethiopia,2,1,1
+2004,Bulgaria,3,0,1
+2004,New Zealand,0,0,2
+2004,Bahamas,1,0,1
+2004,Poland,4,2,1
+2004,Mexico,1,2,0
+2004,Belgium,1,0,1
+2004,Czech Republic,2,2,0
+2004,Slovakia,0,0,1
+2004,North Korea,0,3,0
+2004,Cameroon,0,0,1
+2004,Kenya,0,2,0
+2004,Latvia,0,1,0
+2004,Indonesia,0,1,0
+2004,Serbia and Montenegro,0,1,0
+2004,Lithuania,0,1,0
+2004,South Africa,0,1,0
+2004,Turkey,0,0,1
+2004,Switzerland,1,0,0
+1900,United States,2,1,1
+1900,Great Britain,0,0,2
+1900,Lerina,0,1,1
+1900,United States/Great Britain,1,0,0
+1900,France,0,1,0
+1900,France/Great Britain,0,1,0
+1900,Bohemia,1,0,0
+1900,Bohemia/Great Britain,1,0,0
+1984,Canada,4,8,4
+1984,Romania,7,7,13
+1984,Yugoslavia,0,0,1
+1984,United States,9,25,28
+1984,Norway,0,1,0
+1984,Sweden,1,1,2
+1984,West Germany,11,5,3
+1984,China,4,1,5
+1984,Netherlands,5,2,4
+1984,Australia,4,2,1
+1984,France,3,0,0
+1984,South Korea,1,2,1
+1984,Great Britain,7,4,1
+1984,Switzerland,1,1,0
+1984,Italy,1,2,1
+1984,Japan,3,0,0
+1984,Morocco,0,0,1
+1984,Denmark,1,1,0
+1984,Belgium,2,0,0
+1984,Finland,0,1,0
+1984,Portugal,1,0,0
+1984,Jamaica,2,0,0
+1972,East Germany,7,13,9
+1972,Japan,0,1,1
+1972,United States,6,7,10
+1972,West Germany,4,4,5
+1972,Hungary,3,3,0
+1972,Bulgaria,2,2,0
+1972,Soviet Union,6,6,12
+1972,Australia,2,3,5
+1972,Romania,2,2,0
+1972,Italy,3,1,1
+1972,Cuba,2,0,0
+1972,Canada,1,1,0
+1972,Czechoslovakia,1,1,0
+1972,Great Britain,0,1,2
+1972,Austria,1,0,0
+1972,Sweden,1,1,1
+1972,North Korea,1,0,0
+1972,Netherlands,0,1,0
+1972,Poland,1,1,0
+2012,Canada,6,2,1
+2012,Netherlands,6,3,4
+2012,Great Britain,6,8,11
+2012,New Zealand,2,1,3
+2012,Brazil,4,0,2
+2012,Russia,15,17,12
+2012,Spain,4,5,2
+2012,United States,16,14,29
+2012,Sweden,0,2,0
+2012,Norway,0,0,1
+2012,Colombia,2,1,1
+2012,North Korea,1,0,2
+2012,Japan,7,6,4
+2012,Germany,4,9,3
+2012,Lithuania,0,0,2
+2012,Ethiopia,2,0,3
+2012,Mexico,3,2,0
+2012,Argentina,0,1,0
+2012,Belarus,5,3,1
+2012,Australia,8,9,3
+2012,France,7,4,4
+2012,Montenegro,0,1,0
+2012,Slovakia,1,1,0
+2012,Cuba,0,2,1
+2012,Italy,4,1,3
+2012,Poland,3,2,0
+2012,Ukraine,6,2,2
+2012,Romania,1,4,1
+2012,Turkey,0,2,1
+2012,Jamaica,2,2,1
+2012,China,12,19,21
+2012,Kenya,1,3,0
+2012,Kazakhstan,2,0,4
+2012,South Korea,1,1,5
+2012,Tajikistan,1,0,0
+2012,Hungary,2,1,3
+2012,Denmark,1,1,0
+2012,Singapore,2,0,0
+2012,Tunisia,0,1,0
+2012,Greece,1,0,0
+2012,South Africa,1,1,0
+2012,Czech Republic,2,1,2
+2012,Chinese Taipei,1,1,0
+2012,Moldova,1,0,0
+2012,Bahrain,1,0,0
+2012,Finland,1,1,0
+2012,Armenia,1,0,0
+2012,India,2,0,0
+2012,Hong Kong,1,0,0
+2012,Serbia,0,1,1
+2012,Croatia,1,0,1
+2012,Azerbaijan,1,1,0
+2012,Malaysia,1,0,0
+2012,Thailand,1,1,0
+2012,Mongolia,1,0,0
+2012,Switzerland,0,0,1
+2012,Ireland,0,0,1
+2012,Belgium,2,0,0
+2012,Bulgaria,0,1,0
+2012,Slovenia,0,0,1
+1956,South Africa,1,0,0
+1956,Chile,0,1,0
+1956,Great Britain,2,2,2
+1956,Soviet Union,6,6,7
+1956,Sweden,1,1,0
+1956,Hungary,1,3,4
+1956,Czechoslovakia,0,1,1
+1956,United States,4,6,4
+1956,Australia,4,2,7
+1956,France,1,0,0
+1956,Germany,3,5,1
+1956,Denmark,1,1,0
+1956,Poland,1,0,1
+1956,Romania,2,1,0
+1956,Canada,1,0,0
+1964,Soviet Union,11,6,8
+1964,Japan,1,0,1
+1964,Hungary,1,2,2
+1964,United States,7,9,9
+1964,Australia,3,2,2
+1964,Great Britain,1,2,2
+1964,Romania,2,1,2
+1964,Netherlands,1,2,0
+1964,Germany,1,5,3
+1964,France,0,3,0
+1964,Czechoslovakia,0,1,3
+1964,New Zealand,1,0,0
+1964,Poland,2,3,1
+1964,Switzerland,0,1,0
+1964,Italy,1,0,0
+1912,Austria,1,0,0
+1912,Great Britain,3,1,3
+1912,Norway,1,0,0
+1912,France,1,0,1
+1912,Denmark,0,1,0
+1912,Germany,0,2,1
+1912,Australasia,0,1,1
+1912,Sweden,1,2,1
+1908,Sweden,1,0,0
+1908,Great Britain,4,4,4
+1908,Germany,0,1,1
+1908,Heroine,0,0,1
+2000,Brazil,3,1,0
+2000,Cuba,1,3,3
+2000,Argentina,1,1,0
+2000,Greece,2,3,0
+2000,Russia,9,15,12
+2000,Canada,5,2,0
+2000,Australia,6,9,7
+2000,Great Britain,5,3,3
+2000,Nigeria,0,2,0
+2000,Sweden,2,2,1
+2000,Romania,6,5,8
+2000,United States,16,7,16
+2000,Belarus,3,2,3
+2000,Denmark,0,1,1
+2000,Japan,5,6,2
+2000,Netherlands,1,7,7
+2000,France,4,5,3
+2000,Hungary,1,4,2
+2000,Germany,10,5,6
+2000,Norway,1,2,2
+2000,Italy,3,2,6
+2000,Morocco,1,0,0
+2000,Turkey,1,0,0
+2000,Switzerland,1,4,1
+2000,Ukraine,4,3,2
+2000,Jamaica,2,5,0
+2000,Belgium,3,0,0
+2000,Chinese Taipei,3,1,0
+2000,China,9,9,17
+2000,Kenya,1,0,0
+2000,Bahamas,0,0,2
+2000,Bulgaria,0,1,2
+2000,Spain,3,0,1
+2000,Iceland,1,0,0
+2000,South Korea,5,2,4
+2000,Austria,0,1,0
+2000,Poland,1,2,2
+2000,Lithuania,2,0,1
+2000,South Africa,1,1,0
+2000,Czech Republic,0,0,1
+2000,Indonesia,2,2,0
+2000,Sri Lanka,0,1,0
+2000,Mexico,0,0,1
+2000,New Zealand,1,0,0
+2000,North Korea,1,1,0
+2000,India,1,0,0
+2000,Azerbaijan,0,0,1
+2000,Algeria,0,0,1
+2000,Slovakia,0,2,0
+2000,Mozambique,0,0,1
+2000,Ireland,0,1,0
+2000,Costa Rica,2,0,0
+2000,Portugal,1,0,0
+2000,Serbia and Montenegro,0,1,0
+2000,Kazakhstan,0,0,1
+2000,Thailand,1,0,0
+2000,Vietnam,0,1,0
+2000,Ethiopia,1,1,1
+2000,Colombia,0,0,1
+1976,Romania,3,2,3
+1976,East Germany,9,15,25
+1976,Soviet Union,12,13,11
+1976,Canada,6,1,0
+1976,Hungary,4,1,1
+1976,Japan,0,0,1
+1976,United States,7,9,4
+1976,South Korea,1,0,0
+1976,West Germany,2,3,2
+1976,Bulgaria,2,3,3
+1976,Netherlands,2,0,0
+1976,Italy,0,2,0
+1976,Czechoslovakia,1,0,0
+1976,France,0,1,0
+1976,Sweden,0,1,0
+1976,Switzerland,0,1,1
+1976,Poland,0,0,1
+1928,Netherlands,1,3,2
+1928,Italy,0,1,0
+1928,United States,3,5,6
+1928,South Africa,1,0,0
+1928,Canada,1,1,2
+1928,Great Britain,3,4,0
+1928,Sweden,3,0,0
+1928,L'Aile VI,0,0,1
+1928,Japan,0,1,0
+1928,Germany,4,0,3
+1928,Poland,0,0,1
+1992,United States,20,11,14
+1992,Germany,11,10,12
+1992,Norway,0,1,1
+1992,Sweden,1,1,0
+1992,Unified Team,12,13,12
+1992,Israel,0,1,0
+1992,Japan,4,4,1
+1992,Romania,3,5,3
+1992,Great Britain,4,1,1
+1992,South Korea,3,2,6
+1992,Spain,1,3,4
+1992,Canada,2,1,4
+1992,Netherlands,4,1,1
+1992,Cuba,4,1,3
+1992,Italy,0,1,2
+1992,Individual Olympic Athletes,1,1,0
+1992,Algeria,0,0,1
+1992,Belgium,1,1,0
+1992,China,7,15,12
+1992,Australia,6,3,2
+1992,Jamaica,1,2,0
+1992,Hungary,1,3,5
+1992,Bulgaria,2,3,0
+1992,Mongolia,1,0,0
+1992,Poland,2,0,0
+1992,New Zealand,1,2,1
+1992,France,3,1,3
+1992,Nigeria,1,0,0
+1992,North Korea,2,0,0
+1992,South Africa,0,1,0
+1992,Greece,0,0,1
+1992,Colombia,1,0,0
+1992,Estonia,0,0,1
+1992,Turkey,1,0,0
+1992,Indonesia,0,0,1
+1992,Ethiopia,0,0,1
+1980,Soviet Union,14,16,19
+1980,Yugoslavia,1,1,0
+1980,Romania,5,3,3
+1980,East Germany,18,18,24
+1980,Bulgaria,3,4,0
+1980,Czechoslovakia,0,2,0
+1980,France,0,0,2
+1980,Italy,0,1,1
+1980,Zimbabwe,0,0,1
+1980,Cuba,0,0,1
+1980,Great Britain,2,2,0
+1980,Poland,3,2,0
+1980,Netherlands,1,0,0
+1980,Sweden,0,1,0
+1980,Australia,1,0,1
+1980,Hungary,2,1,0
+1980,Austria,0,0,1
+1980,Finland,1,0,0
+1980,Denmark,1,0,0
+1980,Jamaica,1,0,0
+1952,United States,4,1,3
+1952,Great Britain,3,1,0
+1952,Soviet Union,7,10,6
+1952,Sweden,0,0,1
+1952,Czechoslovakia,1,0,1
+1952,Hungary,6,4,6
+1952,South Africa,0,1,2
+1952,Netherlands,0,4,0
+1952,Italy,0,0,1
+1952,Denmark,1,1,0
+1952,Australia,1,0,3
+1952,Germany,2,2,0
+1952,Austria,0,1,0
+1952,Encore,0,1,0
+1952,France,0,1,0
+1952,Finland,0,0,1
+1952,New Zealand,1,0,1
+1952,Llanoria,0,0,1
+1948,Denmark,2,3,3
+1948,United States,3,4,5
+1948,Hungary,2,1,2
+1948,Austria,3,0,1
+1948,Netherlands,2,1,5
+1948,Italy,0,2,0
+1948,Australia,3,2,0
+1948,Great Britain,2,4,0
+1948,Canada,1,0,0
+1948,Ireland,1,0,0
+1948,Czechoslovakia,0,0,1
+1948,Sweden,1,0,0
+1948,France,2,0,2
+1948,Finland,0,1,1
+1948,Argentina,0,1,0
+1960,Australia,1,3,1
+1960,Soviet Union,7,7,14
+1960,Romania,3,0,1
+1960,Hungary,1,1,0
+1960,Germany,6,6,3
+1960,Czechoslovakia,0,2,1
+1960,United States,1,3,8
+1960,Italy,2,0,0
+1960,Sweden,0,1,0
+1960,Poland,2,2,0
+1960,Great Britain,3,4,1
+1960,Netherlands,1,1,0
+1960,Japan,1,0,0
+1920,Great Britain,2,5,1
+1920,Sweden,2,1,1
+1920,United States,4,3,4
+1920,France,1,1,2
+1920,Norway,0,1,0
+1920,Denmark,0,0,1
+1920,Finland,0,0,1
+1920,Czechoslovakia,1,0,0
+1920,Ancora,0,0,1
+1968,Poland,2,0,1
+1968,United States,10,8,15
+1968,East Germany,2,5,1
+1968,Australia,2,3,2
+1968,France,0,1,1
+1968,Yugoslavia,0,1,1
+1968,Great Britain,0,3,1
+1968,West Germany,1,2,3
+1968,Soviet Union,12,6,7
+1968,Czechoslovakia,0,2,6
+1968,Chinese Taipei,1,0,0
+1968,Cuba,0,1,0
+1968,Canada,1,2,0
+1968,Romania,2,2,2
+1968,Hungary,3,2,1
+1968,Japan,0,1,0
+1968,Netherlands,1,0,1
+1968,Switzerland,1,0,0
+1968,Austria,1,1,0
+1968,Mexico,1,1,0
+1936,Czechoslovakia,0,1,0
+1936,Germany,5,5,3
+1936,United States,4,2,4
+1936,Canada,2,0,0
+1936,Great Britain,0,2,0
+1936,Argentina,0,1,0
+1936,Hungary,1,0,2
+1936,Netherlands,0,1,4
+1936,Switzerland,0,0,1
+1936,Denmark,1,1,0
+1936,Poland,1,2,0
+1936,Japan,0,0,1
+1936,Austria,1,0,0
+1936,May Be,1,0,0
+1936,Italy,0,0,1
+1924,Great Britain,3,5,1
+1924,United States,4,6,9
+1924,Sweden,2,0,0
+1924,Netherlands,1,0,0
+1924,Denmark,1,0,1
+1924,France,0,1,0
+1932,Hungary,1,0,0
+1932,Germany,1,1,0
+1932,United States,4,7,11
+1932,South Africa,2,0,0
+1932,Great Britain,3,1,0
+1932,Canada,1,2,0
+1932,Netherlands,0,2,0
+1932,Australia,0,1,1
+1932,Denmark,1,0,0
+1932,Poland,1,1,1
+1932,Japan,0,1,0
+1932,Austria,0,0,1
+1904,United States,2,2,2
+1904,Cincinnati Archers,0,0,1
+1906,France,0,0,1
+1906,Greece,2,2,1
